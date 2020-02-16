@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@syntesis/c-tabs",
+  "version": "0.0.6",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "react-swipeable-views": "^0.13.0"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

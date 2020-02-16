@@ -1,0 +1,144 @@
+{
+  "private": true,
+  "name": "@syntesis/self-service",
+  "description": "A Self-service Syntesis solution",
+  "repository": "https://git.syntesis.com.br/Syntesis/React/apps/desktop/self-service.git",
+  "author": "Syntesis",
+  "version": "1.0.12",
+  "node": "10.2.0",
+  "main": "main.js",
+  "license": "MIT",
+  "build": {
+    "appId": "com.syntesis.self-service",
+    "productName": "auto atendimento",
+    "copyright": "Syntesis",
+    "directories": {
+      "buildResources": "build",
+      "output": "releases"
+    },
+    "publish": {
+      "provider": "generic",
+      "url": "http://totem.synsuite.com.br"
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "files": [
+      "*.js",
+      "build"
+    ],
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "mac": {
+      "category": "public.app-category.finance",
+      "identity": "8A514C308086DAC10EA1286EDE70AD697B3F5FAE"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "perMachine": true,
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": false,
+      "createDesktopShortcut": false
+    }
+  },
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "electron-builder": "^20.36.2",
+    "electron-publish": "^20.37.0",
+    "electron-reload": "^1.3.0",
+    "npm-run-all": "^4.1.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/styles": "^3.0.0-alpha.10",
+    "@syntesis/c-buttons": "^0.0.16",
+    "@syntesis/c-card-payment-presential": "^0.0.38",
+    "@syntesis/c-commons": "^0.0.26",
+    "@syntesis/c-dialog-portal": "^0.0.4",
+    "@syntesis/c-functions": "^0.0.15",
+    "@syntesis/c-icons": "^0.0.13",
+    "@syntesis/c-inputs": "^0.1.0",
+    "@syntesis/c-loaders": "^0.0.15",
+    "@syntesis/c-modals": "^0.0.37",
+    "@syntesis/c-stores-provider": "^0.0.4",
+    "@syntesis/c-styles": "^0.0.11",
+    "@syntesis/s-csharp-microservices": "^1.0.24",
+    "@syntesis/s-presential-payment": "^0.0.17",
+    "base-64": "^0.1.0",
+    "bytes": "^3.0.0",
+    "classnames": "^2.2.6",
+    "electron-log": "^2.2.17",
+    "electron-updater": "^4.0.4",
+    "kill-port": "^1.3.2",
+    "node-cmd": "^3.0.0",
+    "node-http-server": "^8.1.2",
+    "react-dom": "^16.8.1",
+    "react-flex-carousel": "^1.1.0",
+    "react-jsx-parser": "^1.5.1",
+    "react-outside-click-handler": "^1.2.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-modal": "^1.5.2",
+    "source-map-support": "^0.5.9",
+    "utf8": "^3.0.0"
+  },
+  "scripts": {
+    "bootstrap": "cd ../../../ && yarn bootstrap",
+    "build:babel": "babel src -d lib ",
+    "build:self-service": "webpack --config config/webpack.config.js --mode production",
+    "bundle": "webpack --config config/webpack.config.js --mode development -w --info false --quiet",
+    "clean": "rm -rf ./releases",
+    "config-host:mac": "webstorm ~/Library/'Application Support'/@syntesis/self-service/.configHost",
+    "config-host:linux": "code ~/.config/@syntesis/self-service/.configHost",
+    "deploy": "./scripts/deploy-server.sh development",
+    "electron-builder-app:mac": "yarn clean && electron-builder -m",
+    "electron-builder-app:linux": "yarn clean && electron-builder -l",
+    "electron-builder-app:win": "yarn clean && electron-builder -w",
+    "electron-main": "yarn electron-print-receipt --mode production && yarn electron-update-message --mode production && webpack --config config/webpack.electron.main.config.js --mode production",
+    "electron-main:dev:": "webpack --config config/webpack.electron.main.config.js --mode development -w --info false --quiet",
+    "electron:dev": "npm-run-all --parallel \"electron-print-receipt --mode development -w --info false --quiet\" \"electron-update-message --mode development -w --info false --quiet\" electron-main:dev",
+    "electron-update-message": "webpack --config config/webpack.electron.update.message.config.js",
+    "electron-print-receipt": "webpack --config config/webpack.electron.print.receipt.config.js",
+    "logs:mac": "webstorm ~/Library/Logs/@syntesis/self-service/log.log",
+    "logs:linux": "code ~/.config/@syntesis/self-service/log.log",
+    "postinstall": "electron-builder install-app-deps",
+    "pre-deploy:self-service:mac": "yarn release:self-service:mac && rm -rf releases/mac",
+    "pre-deploy:self-service:linux": "yarn release:self-service:linux",
+    "pre-deploy:self-service:win": "yarn release:self-service:win && rm -rf releases/win-ia32-unpacked && rm -rf releases/win-unpacked",
+    "publish:self-service": "yarn publish:self-service:win",
+    "publish:self-service:mac": "yarn pre-deploy:self-service:mac && yarn deploy",
+    "publish:self-service:linux": "yarn pre-deploy:self-service:linux && yarn deploy",
+    "publish:self-service:win": "yarn pre-deploy:self-service:win && yarn deploy",
+    "release:self-service": "yarn electron-main && yarn release:self-service:win",
+    "release:self-service:mac": "yarn electron-main && yarn electron-builder-app:mac",
+    "release:self-service:linux": "yarn electron-main && yarn electron-builder-app:linux",
+    "release:self-service:win": "yarn electron-main && yarn electron-builder-app:win",
+    "serve:self-service": "ELECTRON_ENV=development electron .",
+    "start:self-service": "npm-run-all --parallel electron-main:dev bundle"
+  }
+}

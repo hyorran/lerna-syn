@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "@syntesis/d-magnetic-files",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@syntesis/c-commons": "^0.0.26",
+    "@syntesis/c-dashboard": "^0.0.10",
+    "@syntesis/c-indicator": "^0.0.7",
+    "@syntesis/c-page-under-construction": "^1.0.0",
+    "@syntesis/f-reinf": "^1.0.0",
+    "@syntesis/s-wiki": "^1.0.24",
+    "react-resize-detector": "^3.2.0"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

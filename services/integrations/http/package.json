@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "@syntesis/s-http",
+  "version": "1.0.23",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@syntesis/c-dialog-portal": "^0.0.0"
+  },
+  "dependencies": {
+    "@syntesis/c-functions": "^0.0.15",
+    "@syntesis/c-snackbars": "^1.0.0",
+    "downloadjs": "^1.4.7"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

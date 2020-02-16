@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "apps/*/*",
+    "components/*/*",
+    "dashboards/*/*/*",
+    "features/*/*/*",
+    "docs/*",
+    "services/*/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "command": {
+    "publish": {
+      "allowBranch": "master"
+    }
+  }
+}

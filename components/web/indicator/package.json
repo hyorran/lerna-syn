@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "@syntesis/c-indicator",
+  "version": "0.0.7",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@syntesis/c-buttons": "^0.0.16",
+    "@syntesis/c-commons": "^0.0.26",
+    "@syntesis/c-icons": "^0.0.13",
+    "@syntesis/c-loaders": "^0.0.15",
+    "@syntesis/c-scroll": "^0.0.4",
+    "@syntesis/c-stores-provider": "^0.0.4",
+    "@syntesis/c-tabs": "^0.0.6",
+    "@syntesis/s-indicators": "^0.0.6"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@syntesis/c-card-payment-presential",
+  "version": "0.0.38",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@syntesis/s-presential-payment": "^0.0.17",
+    "md5": "^2.2.1"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

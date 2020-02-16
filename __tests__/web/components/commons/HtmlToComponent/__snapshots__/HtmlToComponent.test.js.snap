@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HtmlToComponent /> rendered 1`] = `
+<HtmlToComponent
+  containerClass={null}
+  html=" <h2>Html as Component </h2> "
+>
+  <div
+    className={null}
+  >
+     
+    <h2
+      key="1"
+    >
+      Html as Component 
+    </h2>
+     
+  </div>
+</HtmlToComponent>
+`;

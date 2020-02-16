@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "name": "@syntesis/appclient",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "dependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "@react-native-community/async-storage": "^1.2.2",
+    "@syntesis/mc-buttons": "^0.0.0",
+    "@syntesis/mc-inputs": "^0.0.0",
+    "@syntesis/mc-pickers": "^0.0.0",
+    "@syntesis/mc-tabs": "^0.0.0",
+    "@syntesis/mc-headers": "^0.0.0",
+    "@syntesis/c-styles": "^0.0.11",
+    "axios": "^0.18.0",
+    "formik": "^1.5.2",
+    "native-base": "^2.12.1",
+    "react-native": "0.59.3",
+    "react-native-email-link": "^1.2.1",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-icon-badge": "^1.1.3",
+    "react-native-mime-types": "^2.2.1",
+    "react-native-modal": "^9.0.0",
+    "react-native-pages": "^0.7.0",
+    "react-native-paper": "^2.15.1",
+    "react-native-scrollable-tab-view": "^0.10.0",
+    "react-native-test-renderer": "^0.0.1",
+    "react-native-underline-tabbar": "^1.3.6",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-webview": "^5.6.2",
+    "react-navigation": "^3.6.1",
+    "rn-fetch-blob": "^0.10.15",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "bootstrap": "cd ../../../ && yarn bootstrap",
+    "start:ios": "react-native run-ios",
+    "start:android": "react-native run-android",
+    "start": "react-native start"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

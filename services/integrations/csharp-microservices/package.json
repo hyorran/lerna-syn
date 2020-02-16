@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "@syntesis/s-csharp-microservices",
+  "version": "1.0.24",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@syntesis/c-dialog-portal": "^0.0.0"
+  },
+  "dependencies": {
+    "@syntesis/c-functions": "^0.0.15",
+    "@syntesis/c-snackbars": "^1.0.0",
+    "@syntesis/s-http": "^1.0.23",
+    "jwt-decode": "^2.2.0",
+    "md5": "^2.2.1"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

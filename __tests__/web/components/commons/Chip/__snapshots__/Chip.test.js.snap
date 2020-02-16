@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Chip /> rendred 1`] = `
+<WithStyles(Chip)
+  label="teste"
+>
+  <Chip
+    classes={
+      Object {
+        "chip": "Chip-chip-1",
+        "chipWithTooltip": "Chip-chipWithTooltip-2",
+        "label": "Chip-label-4",
+        "labelContainer": "Chip-labelContainer-5",
+        "labelValue": "Chip-labelValue-6",
+        "tooltip": "Chip-tooltip-3",
+      }
+    }
+    label="teste"
+    textAsError={false}
+    tooltip={null}
+    value={null}
+  >
+    <WithStyles(Chip)
+      className="Chip-chip-1 "
+      classes={
+        Object {
+          "label": "Chip-label-4",
+        }
+      }
+      label={
+        <div
+          className="Chip-labelContainer-5"
+        >
+          <div>
+            <b>
+              teste
+            </b>
+            :
+          </div>
+          <div
+            className="Chip-labelValue-6"
+          >
+            -
+          </div>
+        </div>
+      }
+    >
+      <Chip
+        className="Chip-chip-1 "
+        classes={
+          Object {
+            "avatar": "MuiChip-avatar-19",
+            "avatarChildren": "MuiChip-avatarChildren-22",
+            "avatarColorPrimary": "MuiChip-avatarColorPrimary-20",
+            "avatarColorSecondary": "MuiChip-avatarColorSecondary-21",
+            "clickable": "MuiChip-clickable-10",
+            "clickableColorPrimary": "MuiChip-clickableColorPrimary-11",
+            "clickableColorSecondary": "MuiChip-clickableColorSecondary-12",
+            "colorPrimary": "MuiChip-colorPrimary-8",
+            "colorSecondary": "MuiChip-colorSecondary-9",
+            "deletable": "MuiChip-deletable-13",
+            "deletableColorPrimary": "MuiChip-deletableColorPrimary-14",
+            "deletableColorSecondary": "MuiChip-deletableColorSecondary-15",
+            "deleteIcon": "MuiChip-deleteIcon-27",
+            "deleteIconColorPrimary": "MuiChip-deleteIconColorPrimary-28",
+            "deleteIconColorSecondary": "MuiChip-deleteIconColorSecondary-29",
+            "deleteIconOutlinedColorPrimary": "MuiChip-deleteIconOutlinedColorPrimary-30",
+            "deleteIconOutlinedColorSecondary": "MuiChip-deleteIconOutlinedColorSecondary-31",
+            "icon": "MuiChip-icon-23",
+            "iconColorPrimary": "MuiChip-iconColorPrimary-24",
+            "iconColorSecondary": "MuiChip-iconColorSecondary-25",
+            "label": "MuiChip-label-26 Chip-label-4",
+            "outlined": "MuiChip-outlined-16",
+            "outlinedPrimary": "MuiChip-outlinedPrimary-17",
+            "outlinedSecondary": "MuiChip-outlinedSecondary-18",
+            "root": "MuiChip-root-7",
+          }
+        }
+        color="default"
+        component="div"
+        label={
+          <div
+            className="Chip-labelContainer-5"
+          >
+            <div>
+              <b>
+                teste
+              </b>
+              :
+            </div>
+            <div
+              className="Chip-labelValue-6"
+            >
+              -
+            </div>
+          </div>
+        }
+        variant="default"
+      >
+        <div
+          className="MuiChip-root-7 Chip-chip-1 "
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          role="button"
+          tabIndex={-1}
+        >
+          <span
+            className="MuiChip-label-26 Chip-label-4"
+          >
+            <div
+              className="Chip-labelContainer-5"
+            >
+              <div>
+                <b>
+                  teste
+                </b>
+                :
+              </div>
+              <div
+                className="Chip-labelValue-6"
+              >
+                -
+              </div>
+            </div>
+          </span>
+        </div>
+      </Chip>
+    </WithStyles(Chip)>
+  </Chip>
+</WithStyles(Chip)>
+`;

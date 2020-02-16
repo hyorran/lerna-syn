@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "@syntesis/f-sent-operations",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@syntesis/c-badges": "^0.0.4",
+    "@syntesis/c-buttons": "^0.0.16",
+    "@syntesis/c-card-brand": "^0.0.16",
+    "@syntesis/c-commons": "^0.0.26",
+    "@syntesis/c-datagrid": "^0.1.0",
+    "@syntesis/c-functions": "^0.0.15",
+    "@syntesis/c-info-table": "^0.0.30",
+    "@syntesis/c-loaders": "^0.0.15",
+    "@syntesis/c-modals": "^0.0.37",
+    "@syntesis/c-scroll": "^0.0.4",
+    "@syntesis/c-stores-provider": "^0.0.4",
+    "@syntesis/c-tabs": "^0.0.6",
+    "@syntesis/s-payment-methods": "^1.0.24",
+    "@syntesis/s-sent-operations": "^1.0.0",
+    "@syntesis/s-wiki": "^1.0.24",
+    "react-resize-detector": "^3.2.0"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

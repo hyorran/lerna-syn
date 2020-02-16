@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@syntesis/mc-headers",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "native-base": "^2.12.1"
+  }
+}

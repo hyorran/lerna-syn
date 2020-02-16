@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IndicatorChildren /> rendered 1`] = `
+<WithStyles(IndicatorChildren)>
+  <IndicatorChildren
+    checked={false}
+    classes={Object {}}
+    indicatorProps={Object {}}
+    onClick={[Function]}
+    timeout={0}
+  />
+</WithStyles(IndicatorChildren)>
+`;

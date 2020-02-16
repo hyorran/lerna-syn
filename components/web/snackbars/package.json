@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "@syntesis/c-snackbars",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@syntesis/c-dialog-portal": "^0.0.0"
+  },
+  "dependencies": {
+    "@syntesis/c-buttons": "^0.0.16",
+    "@syntesis/c-icons": "^0.0.13",
+    "notistack": "^0.5.1",
+    "react-copy-to-clipboard": "^5.0.1"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@syntesis/s-banks",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@syntesis/s-csharp-microservices": "^1.0.24"
+  }
+}

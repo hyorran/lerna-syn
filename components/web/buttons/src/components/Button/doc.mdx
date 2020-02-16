@@ -1,0 +1,32 @@
+---
+name: Button
+menu: Buttons
+---
+
+import { Playground, PropsTable } from 'docz'
+import Button, { ComponentWithProps } from './'
+
+# Button
+
+A Simple Button Example 
+
+## Basic Usage
+<Playground>
+  <div>
+    <Button>
+      My Button!
+    </Button>
+    <Button
+      btnProps={ {
+        color: 'primary',
+        variant: 'contained'
+      } }
+    >
+      My Created Button!
+    </Button>
+  </div>
+</Playground>
+
+## Props
+
+<PropsTable of={ ComponentWithProps } />

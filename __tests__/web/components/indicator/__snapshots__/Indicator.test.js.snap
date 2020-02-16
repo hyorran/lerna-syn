@@ -1,0 +1,1622 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Indicator /> rendered 1`] = `
+<WithStyles(Indicator)>
+  <Indicator
+    addInGroup={[Function]}
+    backgroundColor={null}
+    classes={
+      Object {
+        "actions": "Indicator-actions-11",
+        "container": "Indicator-container-1",
+        "danger": "Indicator-danger-7",
+        "expand": "Indicator-expand-14",
+        "expandButton": "Indicator-expandButton-12",
+        "expandOpen": "Indicator-expandOpen-13",
+        "header": "Indicator-header-2",
+        "headerIcon": "Indicator-headerIcon-3",
+        "loader": "Indicator-loader-6",
+        "normal": "Indicator-normal-9",
+        "success": "Indicator-success-10",
+        "title": "Indicator-title-4",
+        "value": "Indicator-value-5",
+        "warning": "Indicator-warning-8",
+      }
+    }
+    colorText={null}
+    componentProps={null}
+    expandable={false}
+    filter={Array []}
+    format={[Function]}
+    inGroup={false}
+    indexInGroup={null}
+    loading={false}
+    manualRefresh={true}
+    severity="normal"
+    showChildren={false}
+    slug={null}
+    title=""
+    value={null}
+    watch={true}
+  >
+    <div>
+      <WithStyles(Grid)
+        container={true}
+        wrap="wrap"
+      >
+        <Grid
+          alignContent="stretch"
+          alignItems="stretch"
+          classes={
+            Object {
+              "align-content-xs-center": "MuiGrid-align-content-xs-center-27",
+              "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-29",
+              "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-28",
+              "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-31",
+              "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-30",
+              "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-26",
+              "align-items-xs-center": "MuiGrid-align-items-xs-center-23",
+              "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-25",
+              "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-24",
+              "container": "MuiGrid-container-15",
+              "direction-xs-column": "MuiGrid-direction-xs-column-18",
+              "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-19",
+              "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-20",
+              "grid-lg-1": "MuiGrid-grid-lg-1-86",
+              "grid-lg-10": "MuiGrid-grid-lg-10-95",
+              "grid-lg-11": "MuiGrid-grid-lg-11-96",
+              "grid-lg-12": "MuiGrid-grid-lg-12-97",
+              "grid-lg-2": "MuiGrid-grid-lg-2-87",
+              "grid-lg-3": "MuiGrid-grid-lg-3-88",
+              "grid-lg-4": "MuiGrid-grid-lg-4-89",
+              "grid-lg-5": "MuiGrid-grid-lg-5-90",
+              "grid-lg-6": "MuiGrid-grid-lg-6-91",
+              "grid-lg-7": "MuiGrid-grid-lg-7-92",
+              "grid-lg-8": "MuiGrid-grid-lg-8-93",
+              "grid-lg-9": "MuiGrid-grid-lg-9-94",
+              "grid-lg-auto": "MuiGrid-grid-lg-auto-84",
+              "grid-lg-true": "MuiGrid-grid-lg-true-85",
+              "grid-md-1": "MuiGrid-grid-md-1-72",
+              "grid-md-10": "MuiGrid-grid-md-10-81",
+              "grid-md-11": "MuiGrid-grid-md-11-82",
+              "grid-md-12": "MuiGrid-grid-md-12-83",
+              "grid-md-2": "MuiGrid-grid-md-2-73",
+              "grid-md-3": "MuiGrid-grid-md-3-74",
+              "grid-md-4": "MuiGrid-grid-md-4-75",
+              "grid-md-5": "MuiGrid-grid-md-5-76",
+              "grid-md-6": "MuiGrid-grid-md-6-77",
+              "grid-md-7": "MuiGrid-grid-md-7-78",
+              "grid-md-8": "MuiGrid-grid-md-8-79",
+              "grid-md-9": "MuiGrid-grid-md-9-80",
+              "grid-md-auto": "MuiGrid-grid-md-auto-70",
+              "grid-md-true": "MuiGrid-grid-md-true-71",
+              "grid-sm-1": "MuiGrid-grid-sm-1-58",
+              "grid-sm-10": "MuiGrid-grid-sm-10-67",
+              "grid-sm-11": "MuiGrid-grid-sm-11-68",
+              "grid-sm-12": "MuiGrid-grid-sm-12-69",
+              "grid-sm-2": "MuiGrid-grid-sm-2-59",
+              "grid-sm-3": "MuiGrid-grid-sm-3-60",
+              "grid-sm-4": "MuiGrid-grid-sm-4-61",
+              "grid-sm-5": "MuiGrid-grid-sm-5-62",
+              "grid-sm-6": "MuiGrid-grid-sm-6-63",
+              "grid-sm-7": "MuiGrid-grid-sm-7-64",
+              "grid-sm-8": "MuiGrid-grid-sm-8-65",
+              "grid-sm-9": "MuiGrid-grid-sm-9-66",
+              "grid-sm-auto": "MuiGrid-grid-sm-auto-56",
+              "grid-sm-true": "MuiGrid-grid-sm-true-57",
+              "grid-xl-1": "MuiGrid-grid-xl-1-100",
+              "grid-xl-10": "MuiGrid-grid-xl-10-109",
+              "grid-xl-11": "MuiGrid-grid-xl-11-110",
+              "grid-xl-12": "MuiGrid-grid-xl-12-111",
+              "grid-xl-2": "MuiGrid-grid-xl-2-101",
+              "grid-xl-3": "MuiGrid-grid-xl-3-102",
+              "grid-xl-4": "MuiGrid-grid-xl-4-103",
+              "grid-xl-5": "MuiGrid-grid-xl-5-104",
+              "grid-xl-6": "MuiGrid-grid-xl-6-105",
+              "grid-xl-7": "MuiGrid-grid-xl-7-106",
+              "grid-xl-8": "MuiGrid-grid-xl-8-107",
+              "grid-xl-9": "MuiGrid-grid-xl-9-108",
+              "grid-xl-auto": "MuiGrid-grid-xl-auto-98",
+              "grid-xl-true": "MuiGrid-grid-xl-true-99",
+              "grid-xs-1": "MuiGrid-grid-xs-1-44",
+              "grid-xs-10": "MuiGrid-grid-xs-10-53",
+              "grid-xs-11": "MuiGrid-grid-xs-11-54",
+              "grid-xs-12": "MuiGrid-grid-xs-12-55",
+              "grid-xs-2": "MuiGrid-grid-xs-2-45",
+              "grid-xs-3": "MuiGrid-grid-xs-3-46",
+              "grid-xs-4": "MuiGrid-grid-xs-4-47",
+              "grid-xs-5": "MuiGrid-grid-xs-5-48",
+              "grid-xs-6": "MuiGrid-grid-xs-6-49",
+              "grid-xs-7": "MuiGrid-grid-xs-7-50",
+              "grid-xs-8": "MuiGrid-grid-xs-8-51",
+              "grid-xs-9": "MuiGrid-grid-xs-9-52",
+              "grid-xs-auto": "MuiGrid-grid-xs-auto-42",
+              "grid-xs-true": "MuiGrid-grid-xs-true-43",
+              "item": "MuiGrid-item-16",
+              "justify-xs-center": "MuiGrid-justify-xs-center-32",
+              "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-33",
+              "justify-xs-space-around": "MuiGrid-justify-xs-space-around-35",
+              "justify-xs-space-between": "MuiGrid-justify-xs-space-between-34",
+              "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-36",
+              "spacing-xs-16": "MuiGrid-spacing-xs-16-38",
+              "spacing-xs-24": "MuiGrid-spacing-xs-24-39",
+              "spacing-xs-32": "MuiGrid-spacing-xs-32-40",
+              "spacing-xs-40": "MuiGrid-spacing-xs-40-41",
+              "spacing-xs-8": "MuiGrid-spacing-xs-8-37",
+              "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-21",
+              "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-22",
+              "zeroMinWidth": "MuiGrid-zeroMinWidth-17",
+            }
+          }
+          component="div"
+          container={true}
+          direction="row"
+          item={false}
+          justify="flex-start"
+          lg={false}
+          md={false}
+          sm={false}
+          spacing={0}
+          wrap="wrap"
+          xl={false}
+          xs={false}
+          zeroMinWidth={false}
+        >
+          <div
+            className="MuiGrid-container-15"
+          >
+            <WithStyles(Grid)
+              item={true}
+              lg={12}
+              md={12}
+              sm={12}
+              xs={12}
+            >
+              <Grid
+                alignContent="stretch"
+                alignItems="stretch"
+                classes={
+                  Object {
+                    "align-content-xs-center": "MuiGrid-align-content-xs-center-27",
+                    "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-29",
+                    "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-28",
+                    "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-31",
+                    "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-30",
+                    "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-26",
+                    "align-items-xs-center": "MuiGrid-align-items-xs-center-23",
+                    "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-25",
+                    "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-24",
+                    "container": "MuiGrid-container-15",
+                    "direction-xs-column": "MuiGrid-direction-xs-column-18",
+                    "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-19",
+                    "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-20",
+                    "grid-lg-1": "MuiGrid-grid-lg-1-86",
+                    "grid-lg-10": "MuiGrid-grid-lg-10-95",
+                    "grid-lg-11": "MuiGrid-grid-lg-11-96",
+                    "grid-lg-12": "MuiGrid-grid-lg-12-97",
+                    "grid-lg-2": "MuiGrid-grid-lg-2-87",
+                    "grid-lg-3": "MuiGrid-grid-lg-3-88",
+                    "grid-lg-4": "MuiGrid-grid-lg-4-89",
+                    "grid-lg-5": "MuiGrid-grid-lg-5-90",
+                    "grid-lg-6": "MuiGrid-grid-lg-6-91",
+                    "grid-lg-7": "MuiGrid-grid-lg-7-92",
+                    "grid-lg-8": "MuiGrid-grid-lg-8-93",
+                    "grid-lg-9": "MuiGrid-grid-lg-9-94",
+                    "grid-lg-auto": "MuiGrid-grid-lg-auto-84",
+                    "grid-lg-true": "MuiGrid-grid-lg-true-85",
+                    "grid-md-1": "MuiGrid-grid-md-1-72",
+                    "grid-md-10": "MuiGrid-grid-md-10-81",
+                    "grid-md-11": "MuiGrid-grid-md-11-82",
+                    "grid-md-12": "MuiGrid-grid-md-12-83",
+                    "grid-md-2": "MuiGrid-grid-md-2-73",
+                    "grid-md-3": "MuiGrid-grid-md-3-74",
+                    "grid-md-4": "MuiGrid-grid-md-4-75",
+                    "grid-md-5": "MuiGrid-grid-md-5-76",
+                    "grid-md-6": "MuiGrid-grid-md-6-77",
+                    "grid-md-7": "MuiGrid-grid-md-7-78",
+                    "grid-md-8": "MuiGrid-grid-md-8-79",
+                    "grid-md-9": "MuiGrid-grid-md-9-80",
+                    "grid-md-auto": "MuiGrid-grid-md-auto-70",
+                    "grid-md-true": "MuiGrid-grid-md-true-71",
+                    "grid-sm-1": "MuiGrid-grid-sm-1-58",
+                    "grid-sm-10": "MuiGrid-grid-sm-10-67",
+                    "grid-sm-11": "MuiGrid-grid-sm-11-68",
+                    "grid-sm-12": "MuiGrid-grid-sm-12-69",
+                    "grid-sm-2": "MuiGrid-grid-sm-2-59",
+                    "grid-sm-3": "MuiGrid-grid-sm-3-60",
+                    "grid-sm-4": "MuiGrid-grid-sm-4-61",
+                    "grid-sm-5": "MuiGrid-grid-sm-5-62",
+                    "grid-sm-6": "MuiGrid-grid-sm-6-63",
+                    "grid-sm-7": "MuiGrid-grid-sm-7-64",
+                    "grid-sm-8": "MuiGrid-grid-sm-8-65",
+                    "grid-sm-9": "MuiGrid-grid-sm-9-66",
+                    "grid-sm-auto": "MuiGrid-grid-sm-auto-56",
+                    "grid-sm-true": "MuiGrid-grid-sm-true-57",
+                    "grid-xl-1": "MuiGrid-grid-xl-1-100",
+                    "grid-xl-10": "MuiGrid-grid-xl-10-109",
+                    "grid-xl-11": "MuiGrid-grid-xl-11-110",
+                    "grid-xl-12": "MuiGrid-grid-xl-12-111",
+                    "grid-xl-2": "MuiGrid-grid-xl-2-101",
+                    "grid-xl-3": "MuiGrid-grid-xl-3-102",
+                    "grid-xl-4": "MuiGrid-grid-xl-4-103",
+                    "grid-xl-5": "MuiGrid-grid-xl-5-104",
+                    "grid-xl-6": "MuiGrid-grid-xl-6-105",
+                    "grid-xl-7": "MuiGrid-grid-xl-7-106",
+                    "grid-xl-8": "MuiGrid-grid-xl-8-107",
+                    "grid-xl-9": "MuiGrid-grid-xl-9-108",
+                    "grid-xl-auto": "MuiGrid-grid-xl-auto-98",
+                    "grid-xl-true": "MuiGrid-grid-xl-true-99",
+                    "grid-xs-1": "MuiGrid-grid-xs-1-44",
+                    "grid-xs-10": "MuiGrid-grid-xs-10-53",
+                    "grid-xs-11": "MuiGrid-grid-xs-11-54",
+                    "grid-xs-12": "MuiGrid-grid-xs-12-55",
+                    "grid-xs-2": "MuiGrid-grid-xs-2-45",
+                    "grid-xs-3": "MuiGrid-grid-xs-3-46",
+                    "grid-xs-4": "MuiGrid-grid-xs-4-47",
+                    "grid-xs-5": "MuiGrid-grid-xs-5-48",
+                    "grid-xs-6": "MuiGrid-grid-xs-6-49",
+                    "grid-xs-7": "MuiGrid-grid-xs-7-50",
+                    "grid-xs-8": "MuiGrid-grid-xs-8-51",
+                    "grid-xs-9": "MuiGrid-grid-xs-9-52",
+                    "grid-xs-auto": "MuiGrid-grid-xs-auto-42",
+                    "grid-xs-true": "MuiGrid-grid-xs-true-43",
+                    "item": "MuiGrid-item-16",
+                    "justify-xs-center": "MuiGrid-justify-xs-center-32",
+                    "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-33",
+                    "justify-xs-space-around": "MuiGrid-justify-xs-space-around-35",
+                    "justify-xs-space-between": "MuiGrid-justify-xs-space-between-34",
+                    "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-36",
+                    "spacing-xs-16": "MuiGrid-spacing-xs-16-38",
+                    "spacing-xs-24": "MuiGrid-spacing-xs-24-39",
+                    "spacing-xs-32": "MuiGrid-spacing-xs-32-40",
+                    "spacing-xs-40": "MuiGrid-spacing-xs-40-41",
+                    "spacing-xs-8": "MuiGrid-spacing-xs-8-37",
+                    "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-21",
+                    "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-22",
+                    "zeroMinWidth": "MuiGrid-zeroMinWidth-17",
+                  }
+                }
+                component="div"
+                container={false}
+                direction="row"
+                item={true}
+                justify="flex-start"
+                lg={12}
+                md={12}
+                sm={12}
+                spacing={0}
+                wrap="wrap"
+                xl={false}
+                xs={12}
+                zeroMinWidth={false}
+              >
+                <div
+                  className="MuiGrid-item-16 MuiGrid-grid-xs-12-55 MuiGrid-grid-sm-12-69 MuiGrid-grid-md-12-83 MuiGrid-grid-lg-12-97"
+                >
+                  <WithStyles(Card)
+                    className="Indicator-container-1 Indicator-normal-9 "
+                  >
+                    <Card
+                      className="Indicator-container-1 Indicator-normal-9 "
+                      classes={
+                        Object {
+                          "root": "MuiCard-root-112",
+                        }
+                      }
+                      raised={false}
+                    >
+                      <WithStyles(Paper)
+                        className="MuiCard-root-112 Indicator-container-1 Indicator-normal-9 "
+                        elevation={1}
+                      >
+                        <Paper
+                          className="MuiCard-root-112 Indicator-container-1 Indicator-normal-9 "
+                          classes={
+                            Object {
+                              "elevation0": "MuiPaper-elevation0-115",
+                              "elevation1": "MuiPaper-elevation1-116",
+                              "elevation10": "MuiPaper-elevation10-125",
+                              "elevation11": "MuiPaper-elevation11-126",
+                              "elevation12": "MuiPaper-elevation12-127",
+                              "elevation13": "MuiPaper-elevation13-128",
+                              "elevation14": "MuiPaper-elevation14-129",
+                              "elevation15": "MuiPaper-elevation15-130",
+                              "elevation16": "MuiPaper-elevation16-131",
+                              "elevation17": "MuiPaper-elevation17-132",
+                              "elevation18": "MuiPaper-elevation18-133",
+                              "elevation19": "MuiPaper-elevation19-134",
+                              "elevation2": "MuiPaper-elevation2-117",
+                              "elevation20": "MuiPaper-elevation20-135",
+                              "elevation21": "MuiPaper-elevation21-136",
+                              "elevation22": "MuiPaper-elevation22-137",
+                              "elevation23": "MuiPaper-elevation23-138",
+                              "elevation24": "MuiPaper-elevation24-139",
+                              "elevation3": "MuiPaper-elevation3-118",
+                              "elevation4": "MuiPaper-elevation4-119",
+                              "elevation5": "MuiPaper-elevation5-120",
+                              "elevation6": "MuiPaper-elevation6-121",
+                              "elevation7": "MuiPaper-elevation7-122",
+                              "elevation8": "MuiPaper-elevation8-123",
+                              "elevation9": "MuiPaper-elevation9-124",
+                              "root": "MuiPaper-root-113",
+                              "rounded": "MuiPaper-rounded-114",
+                            }
+                          }
+                          component="div"
+                          elevation={1}
+                          square={false}
+                        >
+                          <div
+                            className="MuiPaper-root-113 MuiPaper-elevation1-116 MuiPaper-rounded-114 MuiCard-root-112 Indicator-container-1 Indicator-normal-9 "
+                          >
+                            <div
+                              className="Indicator-header-2"
+                            >
+                              <WithStyles(Typography)
+                                className="Indicator-title-4"
+                                variant="body2"
+                              >
+                                <Typography
+                                  align="inherit"
+                                  className="Indicator-title-4"
+                                  classes={
+                                    Object {
+                                      "alignCenter": "MuiTypography-alignCenter-163",
+                                      "alignJustify": "MuiTypography-alignJustify-165",
+                                      "alignLeft": "MuiTypography-alignLeft-162",
+                                      "alignRight": "MuiTypography-alignRight-164",
+                                      "body1": "MuiTypography-body1-149",
+                                      "body2": "MuiTypography-body2-148",
+                                      "button": "MuiTypography-button-151",
+                                      "caption": "MuiTypography-caption-150",
+                                      "colorError": "MuiTypography-colorError-174",
+                                      "colorInherit": "MuiTypography-colorInherit-169",
+                                      "colorPrimary": "MuiTypography-colorPrimary-170",
+                                      "colorSecondary": "MuiTypography-colorSecondary-171",
+                                      "colorTextPrimary": "MuiTypography-colorTextPrimary-172",
+                                      "colorTextSecondary": "MuiTypography-colorTextSecondary-173",
+                                      "display1": "MuiTypography-display1-144",
+                                      "display2": "MuiTypography-display2-143",
+                                      "display3": "MuiTypography-display3-142",
+                                      "display4": "MuiTypography-display4-141",
+                                      "gutterBottom": "MuiTypography-gutterBottom-167",
+                                      "h1": "MuiTypography-h1-152",
+                                      "h2": "MuiTypography-h2-153",
+                                      "h3": "MuiTypography-h3-154",
+                                      "h4": "MuiTypography-h4-155",
+                                      "h5": "MuiTypography-h5-156",
+                                      "h6": "MuiTypography-h6-157",
+                                      "headline": "MuiTypography-headline-145",
+                                      "inline": "MuiTypography-inline-175",
+                                      "noWrap": "MuiTypography-noWrap-166",
+                                      "overline": "MuiTypography-overline-160",
+                                      "paragraph": "MuiTypography-paragraph-168",
+                                      "root": "MuiTypography-root-140",
+                                      "srOnly": "MuiTypography-srOnly-161",
+                                      "subheading": "MuiTypography-subheading-147",
+                                      "subtitle1": "MuiTypography-subtitle1-158",
+                                      "subtitle2": "MuiTypography-subtitle2-159",
+                                      "title": "MuiTypography-title-146",
+                                    }
+                                  }
+                                  color="default"
+                                  gutterBottom={false}
+                                  headlineMapping={
+                                    Object {
+                                      "body1": "p",
+                                      "body2": "p",
+                                      "display1": "h1",
+                                      "display2": "h1",
+                                      "display3": "h1",
+                                      "display4": "h1",
+                                      "h1": "h1",
+                                      "h2": "h2",
+                                      "h3": "h3",
+                                      "h4": "h4",
+                                      "h5": "h5",
+                                      "h6": "h6",
+                                      "headline": "h1",
+                                      "subheading": "h3",
+                                      "subtitle1": "h6",
+                                      "subtitle2": "h6",
+                                      "title": "h2",
+                                    }
+                                  }
+                                  inline={false}
+                                  noWrap={false}
+                                  paragraph={false}
+                                  theme={
+                                    Object {
+                                      "breakpoints": Object {
+                                        "between": [Function],
+                                        "down": [Function],
+                                        "keys": Array [
+                                          "xs",
+                                          "sm",
+                                          "md",
+                                          "lg",
+                                          "xl",
+                                        ],
+                                        "only": [Function],
+                                        "up": [Function],
+                                        "values": Object {
+                                          "lg": 1280,
+                                          "md": 960,
+                                          "sm": 600,
+                                          "xl": 1920,
+                                          "xs": 0,
+                                        },
+                                        "width": [Function],
+                                      },
+                                      "direction": "ltr",
+                                      "mixins": Object {
+                                        "gutters": [Function],
+                                        "toolbar": Object {
+                                          "@media (min-width:0px) and (orientation: landscape)": Object {
+                                            "minHeight": 48,
+                                          },
+                                          "@media (min-width:600px)": Object {
+                                            "minHeight": 64,
+                                          },
+                                          "minHeight": 56,
+                                        },
+                                      },
+                                      "overrides": Object {},
+                                      "palette": Object {
+                                        "action": Object {
+                                          "active": "rgba(0, 0, 0, 0.54)",
+                                          "disabled": "rgba(0, 0, 0, 0.26)",
+                                          "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                                          "hover": "rgba(0, 0, 0, 0.08)",
+                                          "hoverOpacity": 0.08,
+                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                        },
+                                        "augmentColor": [Function],
+                                        "background": Object {
+                                          "default": "#fafafa",
+                                          "paper": "#fff",
+                                        },
+                                        "common": Object {
+                                          "black": "#000",
+                                          "white": "#fff",
+                                        },
+                                        "contrastThreshold": 3,
+                                        "divider": "rgba(0, 0, 0, 0.12)",
+                                        "error": Object {
+                                          "contrastText": "#fff",
+                                          "dark": "#d32f2f",
+                                          "light": "#e57373",
+                                          "main": "#f44336",
+                                        },
+                                        "getContrastText": [Function],
+                                        "grey": Object {
+                                          "100": "#f5f5f5",
+                                          "200": "#eeeeee",
+                                          "300": "#e0e0e0",
+                                          "400": "#bdbdbd",
+                                          "50": "#fafafa",
+                                          "500": "#9e9e9e",
+                                          "600": "#757575",
+                                          "700": "#616161",
+                                          "800": "#424242",
+                                          "900": "#212121",
+                                          "A100": "#d5d5d5",
+                                          "A200": "#aaaaaa",
+                                          "A400": "#303030",
+                                          "A700": "#616161",
+                                        },
+                                        "primary": Object {
+                                          "contrastText": "#fff",
+                                          "dark": "#303f9f",
+                                          "light": "#7986cb",
+                                          "main": "#3f51b5",
+                                        },
+                                        "secondary": Object {
+                                          "contrastText": "#fff",
+                                          "dark": "#c51162",
+                                          "light": "#ff4081",
+                                          "main": "#f50057",
+                                        },
+                                        "text": Object {
+                                          "disabled": "rgba(0, 0, 0, 0.38)",
+                                          "hint": "rgba(0, 0, 0, 0.38)",
+                                          "primary": "rgba(0, 0, 0, 0.87)",
+                                          "secondary": "rgba(0, 0, 0, 0.54)",
+                                        },
+                                        "tonalOffset": 0.2,
+                                        "type": "light",
+                                      },
+                                      "props": Object {},
+                                      "shadows": Array [
+                                        "none",
+                                        "0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12)",
+                                        "0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12)",
+                                        "0px 1px 8px 0px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 3px 3px -2px rgba(0,0,0,0.12)",
+                                        "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                                        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                                        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                                        "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                                        "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                                        "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                                        "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                                        "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                                        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                                        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                                        "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                                        "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                                        "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                                        "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                                        "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                                        "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                                        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                                        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                                        "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                                        "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                                        "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                                      ],
+                                      "shape": Object {
+                                        "borderRadius": 4,
+                                      },
+                                      "spacing": Object {
+                                        "unit": 8,
+                                      },
+                                      "transitions": Object {
+                                        "create": [Function],
+                                        "duration": Object {
+                                          "complex": 375,
+                                          "enteringScreen": 225,
+                                          "leavingScreen": 195,
+                                          "short": 250,
+                                          "shorter": 200,
+                                          "shortest": 150,
+                                          "standard": 300,
+                                        },
+                                        "easing": Object {
+                                          "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                                          "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                                          "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                                          "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                                        },
+                                        "getAutoHeightDuration": [Function],
+                                      },
+                                      "typography": Object {
+                                        "body1": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.875rem",
+                                          "fontWeight": 400,
+                                          "lineHeight": "1.46429em",
+                                        },
+                                        "body1Next": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.00938em",
+                                          "lineHeight": 1.5,
+                                        },
+                                        "body2": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.875rem",
+                                          "fontWeight": 500,
+                                          "lineHeight": "1.71429em",
+                                        },
+                                        "body2Next": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.875rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.01071em",
+                                          "lineHeight": 1.5,
+                                        },
+                                        "button": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.875rem",
+                                          "fontWeight": 500,
+                                          "textTransform": "uppercase",
+                                        },
+                                        "buttonNext": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.875rem",
+                                          "fontWeight": 500,
+                                          "letterSpacing": "0.02857em",
+                                          "lineHeight": 1.75,
+                                          "textTransform": "uppercase",
+                                        },
+                                        "caption": Object {
+                                          "color": "rgba(0, 0, 0, 0.54)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.75rem",
+                                          "fontWeight": 400,
+                                          "lineHeight": "1.375em",
+                                        },
+                                        "captionNext": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.75rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.03333em",
+                                          "lineHeight": 1.66,
+                                        },
+                                        "display1": Object {
+                                          "color": "rgba(0, 0, 0, 0.54)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "2.125rem",
+                                          "fontWeight": 400,
+                                          "lineHeight": "1.20588em",
+                                        },
+                                        "display2": Object {
+                                          "color": "rgba(0, 0, 0, 0.54)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "2.8125rem",
+                                          "fontWeight": 400,
+                                          "lineHeight": "1.13333em",
+                                          "marginLeft": "-.02em",
+                                        },
+                                        "display3": Object {
+                                          "color": "rgba(0, 0, 0, 0.54)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "3.5rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "-.02em",
+                                          "lineHeight": "1.30357em",
+                                          "marginLeft": "-.02em",
+                                        },
+                                        "display4": Object {
+                                          "color": "rgba(0, 0, 0, 0.54)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "7rem",
+                                          "fontWeight": 300,
+                                          "letterSpacing": "-.04em",
+                                          "lineHeight": "1.14286em",
+                                          "marginLeft": "-.04em",
+                                        },
+                                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                        "fontSize": 14,
+                                        "fontWeightLight": 300,
+                                        "fontWeightMedium": 500,
+                                        "fontWeightRegular": 400,
+                                        "h1": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "6rem",
+                                          "fontWeight": 300,
+                                          "letterSpacing": "-0.01562em",
+                                          "lineHeight": 1,
+                                        },
+                                        "h2": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "3.75rem",
+                                          "fontWeight": 300,
+                                          "letterSpacing": "-0.00833em",
+                                          "lineHeight": 1,
+                                        },
+                                        "h3": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "3rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0em",
+                                          "lineHeight": 1.04,
+                                        },
+                                        "h4": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "2.125rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.00735em",
+                                          "lineHeight": 1.17,
+                                        },
+                                        "h5": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1.5rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0em",
+                                          "lineHeight": 1.33,
+                                        },
+                                        "h6": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1.25rem",
+                                          "fontWeight": 500,
+                                          "letterSpacing": "0.0075em",
+                                          "lineHeight": 1.6,
+                                        },
+                                        "headline": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1.5rem",
+                                          "fontWeight": 400,
+                                          "lineHeight": "1.35417em",
+                                        },
+                                        "overline": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.75rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.08333em",
+                                          "lineHeight": 2.66,
+                                          "textTransform": "uppercase",
+                                        },
+                                        "pxToRem": [Function],
+                                        "round": [Function],
+                                        "subheading": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1rem",
+                                          "fontWeight": 400,
+                                          "lineHeight": "1.5em",
+                                        },
+                                        "subtitle1": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.00938em",
+                                          "lineHeight": 1.75,
+                                        },
+                                        "subtitle2": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.875rem",
+                                          "fontWeight": 500,
+                                          "letterSpacing": "0.00714em",
+                                          "lineHeight": 1.57,
+                                        },
+                                        "title": Object {
+                                          "color": "rgba(0, 0, 0, 0.87)",
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1.3125rem",
+                                          "fontWeight": 500,
+                                          "lineHeight": "1.16667em",
+                                        },
+                                        "useNextVariants": false,
+                                      },
+                                      "zIndex": Object {
+                                        "appBar": 1100,
+                                        "drawer": 1200,
+                                        "mobileStepper": 1000,
+                                        "modal": 1300,
+                                        "snackbar": 1400,
+                                        "tooltip": 1500,
+                                      },
+                                    }
+                                  }
+                                  variant="body2"
+                                >
+                                  <p
+                                    className="MuiTypography-root-140 MuiTypography-body2-148 Indicator-title-4"
+                                  />
+                                </Typography>
+                              </WithStyles(Typography)>
+                              <RefreshIconButton
+                                iconProps={
+                                  Object {
+                                    "classes": Object {
+                                      "root": "Indicator-headerIcon-3",
+                                    },
+                                  }
+                                }
+                                onClick={[Function]}
+                                size="mini"
+                              >
+                                <WithStyles(IconButton)
+                                  onClick={[Function]}
+                                  size="mini"
+                                  tooltip="Atualizar"
+                                >
+                                  <IconButton
+                                    asCreate={false}
+                                    asLight={false}
+                                    btnClass={null}
+                                    btnProps={Object {}}
+                                    classes={
+                                      Object {
+                                        "btnCreate": "IconButton-btnCreate-179",
+                                        "btnLight": "IconButton-btnLight-187",
+                                        "btnShadow": "IconButton-btnShadow-180",
+                                        "btnTable": "IconButton-btnTable-186",
+                                        "btnTransparentWhite": "IconButton-btnTransparentWhite-184",
+                                        "colorSecondary": "IconButton-colorSecondary-188",
+                                        "error": "IconButton-error-191",
+                                        "generic": "IconButton-generic-192",
+                                        "iconButtonMarginHorizontal": "IconButton-iconButtonMarginHorizontal-178",
+                                        "iconButtonMarginVertical": "IconButton-iconButtonMarginVertical-177",
+                                        "mini": "IconButton-mini-183",
+                                        "none": "IconButton-none-185",
+                                        "root": "IconButton-root-176",
+                                        "secondaryButton": "IconButton-secondaryButton-193",
+                                        "secondaryInverseButton": "IconButton-secondaryInverseButton-194",
+                                        "spanIconButton": "IconButton-spanIconButton-182",
+                                        "success": "IconButton-success-189",
+                                        "warning": "IconButton-warning-190",
+                                        "withOpacity": "IconButton-withOpacity-181",
+                                      }
+                                    }
+                                    debounce={200}
+                                    debounceReverse={false}
+                                    disabled={false}
+                                    loading={false}
+                                    marginHorizontal={true}
+                                    marginVertical={false}
+                                    onClick={[Function]}
+                                    onTable={false}
+                                    placement="bottom"
+                                    popover={false}
+                                    popoverProps={Object {}}
+                                    roleStyle={null}
+                                    shadow={false}
+                                    size="mini"
+                                    tooltip="Atualizar"
+                                    type="button"
+                                    withOpacity={false}
+                                  >
+                                    <div
+                                      className="IconButton-iconButtonMarginHorizontal-178 "
+                                    >
+                                      <WithStyles(Tooltip)
+                                        TransitionComponent={[Function]}
+                                        enterDelay={500}
+                                        placement="bottom"
+                                        title="Atualizar"
+                                      >
+                                        <Tooltip
+                                          TransitionComponent={[Function]}
+                                          classes={
+                                            Object {
+                                              "popper": "MuiTooltip-popper-195",
+                                              "popperInteractive": "MuiTooltip-popperInteractive-196",
+                                              "tooltip": "MuiTooltip-tooltip-197",
+                                              "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom-202",
+                                              "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft-199",
+                                              "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight-200",
+                                              "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop-201",
+                                              "touch": "MuiTooltip-touch-198",
+                                            }
+                                          }
+                                          disableFocusListener={false}
+                                          disableHoverListener={false}
+                                          disableTouchListener={false}
+                                          enterDelay={500}
+                                          enterTouchDelay={1000}
+                                          interactive={false}
+                                          leaveDelay={0}
+                                          leaveTouchDelay={1500}
+                                          placement="bottom"
+                                          theme={
+                                            Object {
+                                              "breakpoints": Object {
+                                                "between": [Function],
+                                                "down": [Function],
+                                                "keys": Array [
+                                                  "xs",
+                                                  "sm",
+                                                  "md",
+                                                  "lg",
+                                                  "xl",
+                                                ],
+                                                "only": [Function],
+                                                "up": [Function],
+                                                "values": Object {
+                                                  "lg": 1280,
+                                                  "md": 960,
+                                                  "sm": 600,
+                                                  "xl": 1920,
+                                                  "xs": 0,
+                                                },
+                                                "width": [Function],
+                                              },
+                                              "direction": "ltr",
+                                              "mixins": Object {
+                                                "gutters": [Function],
+                                                "toolbar": Object {
+                                                  "@media (min-width:0px) and (orientation: landscape)": Object {
+                                                    "minHeight": 48,
+                                                  },
+                                                  "@media (min-width:600px)": Object {
+                                                    "minHeight": 64,
+                                                  },
+                                                  "minHeight": 56,
+                                                },
+                                              },
+                                              "overrides": Object {},
+                                              "palette": Object {
+                                                "action": Object {
+                                                  "active": "rgba(0, 0, 0, 0.54)",
+                                                  "disabled": "rgba(0, 0, 0, 0.26)",
+                                                  "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                                                  "hover": "rgba(0, 0, 0, 0.08)",
+                                                  "hoverOpacity": 0.08,
+                                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                                },
+                                                "augmentColor": [Function],
+                                                "background": Object {
+                                                  "default": "#fafafa",
+                                                  "paper": "#fff",
+                                                },
+                                                "common": Object {
+                                                  "black": "#000",
+                                                  "white": "#fff",
+                                                },
+                                                "contrastThreshold": 3,
+                                                "divider": "rgba(0, 0, 0, 0.12)",
+                                                "error": Object {
+                                                  "contrastText": "#fff",
+                                                  "dark": "#d32f2f",
+                                                  "light": "#e57373",
+                                                  "main": "#f44336",
+                                                },
+                                                "getContrastText": [Function],
+                                                "grey": Object {
+                                                  "100": "#f5f5f5",
+                                                  "200": "#eeeeee",
+                                                  "300": "#e0e0e0",
+                                                  "400": "#bdbdbd",
+                                                  "50": "#fafafa",
+                                                  "500": "#9e9e9e",
+                                                  "600": "#757575",
+                                                  "700": "#616161",
+                                                  "800": "#424242",
+                                                  "900": "#212121",
+                                                  "A100": "#d5d5d5",
+                                                  "A200": "#aaaaaa",
+                                                  "A400": "#303030",
+                                                  "A700": "#616161",
+                                                },
+                                                "primary": Object {
+                                                  "contrastText": "#fff",
+                                                  "dark": "#303f9f",
+                                                  "light": "#7986cb",
+                                                  "main": "#3f51b5",
+                                                },
+                                                "secondary": Object {
+                                                  "contrastText": "#fff",
+                                                  "dark": "#c51162",
+                                                  "light": "#ff4081",
+                                                  "main": "#f50057",
+                                                },
+                                                "text": Object {
+                                                  "disabled": "rgba(0, 0, 0, 0.38)",
+                                                  "hint": "rgba(0, 0, 0, 0.38)",
+                                                  "primary": "rgba(0, 0, 0, 0.87)",
+                                                  "secondary": "rgba(0, 0, 0, 0.54)",
+                                                },
+                                                "tonalOffset": 0.2,
+                                                "type": "light",
+                                              },
+                                              "props": Object {},
+                                              "shadows": Array [
+                                                "none",
+                                                "0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12)",
+                                                "0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12)",
+                                                "0px 1px 8px 0px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 3px 3px -2px rgba(0,0,0,0.12)",
+                                                "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                                                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                                                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                                                "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                                                "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                                                "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                                                "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                                                "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                                                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                                                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                                                "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                                                "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                                                "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                                                "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                                                "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                                                "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                                                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                                                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                                                "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                                                "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                                                "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                                              ],
+                                              "shape": Object {
+                                                "borderRadius": 4,
+                                              },
+                                              "spacing": Object {
+                                                "unit": 8,
+                                              },
+                                              "transitions": Object {
+                                                "create": [Function],
+                                                "duration": Object {
+                                                  "complex": 375,
+                                                  "enteringScreen": 225,
+                                                  "leavingScreen": 195,
+                                                  "short": 250,
+                                                  "shorter": 200,
+                                                  "shortest": 150,
+                                                  "standard": 300,
+                                                },
+                                                "easing": Object {
+                                                  "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                                                  "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                                                  "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                                                  "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                                                },
+                                                "getAutoHeightDuration": [Function],
+                                              },
+                                              "typography": Object {
+                                                "body1": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "0.875rem",
+                                                  "fontWeight": 400,
+                                                  "lineHeight": "1.46429em",
+                                                },
+                                                "body1Next": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "1rem",
+                                                  "fontWeight": 400,
+                                                  "letterSpacing": "0.00938em",
+                                                  "lineHeight": 1.5,
+                                                },
+                                                "body2": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "0.875rem",
+                                                  "fontWeight": 500,
+                                                  "lineHeight": "1.71429em",
+                                                },
+                                                "body2Next": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "0.875rem",
+                                                  "fontWeight": 400,
+                                                  "letterSpacing": "0.01071em",
+                                                  "lineHeight": 1.5,
+                                                },
+                                                "button": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "0.875rem",
+                                                  "fontWeight": 500,
+                                                  "textTransform": "uppercase",
+                                                },
+                                                "buttonNext": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "0.875rem",
+                                                  "fontWeight": 500,
+                                                  "letterSpacing": "0.02857em",
+                                                  "lineHeight": 1.75,
+                                                  "textTransform": "uppercase",
+                                                },
+                                                "caption": Object {
+                                                  "color": "rgba(0, 0, 0, 0.54)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "0.75rem",
+                                                  "fontWeight": 400,
+                                                  "lineHeight": "1.375em",
+                                                },
+                                                "captionNext": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "0.75rem",
+                                                  "fontWeight": 400,
+                                                  "letterSpacing": "0.03333em",
+                                                  "lineHeight": 1.66,
+                                                },
+                                                "display1": Object {
+                                                  "color": "rgba(0, 0, 0, 0.54)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "2.125rem",
+                                                  "fontWeight": 400,
+                                                  "lineHeight": "1.20588em",
+                                                },
+                                                "display2": Object {
+                                                  "color": "rgba(0, 0, 0, 0.54)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "2.8125rem",
+                                                  "fontWeight": 400,
+                                                  "lineHeight": "1.13333em",
+                                                  "marginLeft": "-.02em",
+                                                },
+                                                "display3": Object {
+                                                  "color": "rgba(0, 0, 0, 0.54)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "3.5rem",
+                                                  "fontWeight": 400,
+                                                  "letterSpacing": "-.02em",
+                                                  "lineHeight": "1.30357em",
+                                                  "marginLeft": "-.02em",
+                                                },
+                                                "display4": Object {
+                                                  "color": "rgba(0, 0, 0, 0.54)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "7rem",
+                                                  "fontWeight": 300,
+                                                  "letterSpacing": "-.04em",
+                                                  "lineHeight": "1.14286em",
+                                                  "marginLeft": "-.04em",
+                                                },
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": 14,
+                                                "fontWeightLight": 300,
+                                                "fontWeightMedium": 500,
+                                                "fontWeightRegular": 400,
+                                                "h1": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "6rem",
+                                                  "fontWeight": 300,
+                                                  "letterSpacing": "-0.01562em",
+                                                  "lineHeight": 1,
+                                                },
+                                                "h2": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "3.75rem",
+                                                  "fontWeight": 300,
+                                                  "letterSpacing": "-0.00833em",
+                                                  "lineHeight": 1,
+                                                },
+                                                "h3": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "3rem",
+                                                  "fontWeight": 400,
+                                                  "letterSpacing": "0em",
+                                                  "lineHeight": 1.04,
+                                                },
+                                                "h4": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "2.125rem",
+                                                  "fontWeight": 400,
+                                                  "letterSpacing": "0.00735em",
+                                                  "lineHeight": 1.17,
+                                                },
+                                                "h5": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "1.5rem",
+                                                  "fontWeight": 400,
+                                                  "letterSpacing": "0em",
+                                                  "lineHeight": 1.33,
+                                                },
+                                                "h6": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "1.25rem",
+                                                  "fontWeight": 500,
+                                                  "letterSpacing": "0.0075em",
+                                                  "lineHeight": 1.6,
+                                                },
+                                                "headline": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "1.5rem",
+                                                  "fontWeight": 400,
+                                                  "lineHeight": "1.35417em",
+                                                },
+                                                "overline": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "0.75rem",
+                                                  "fontWeight": 400,
+                                                  "letterSpacing": "0.08333em",
+                                                  "lineHeight": 2.66,
+                                                  "textTransform": "uppercase",
+                                                },
+                                                "pxToRem": [Function],
+                                                "round": [Function],
+                                                "subheading": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "1rem",
+                                                  "fontWeight": 400,
+                                                  "lineHeight": "1.5em",
+                                                },
+                                                "subtitle1": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "1rem",
+                                                  "fontWeight": 400,
+                                                  "letterSpacing": "0.00938em",
+                                                  "lineHeight": 1.75,
+                                                },
+                                                "subtitle2": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "0.875rem",
+                                                  "fontWeight": 500,
+                                                  "letterSpacing": "0.00714em",
+                                                  "lineHeight": 1.57,
+                                                },
+                                                "title": Object {
+                                                  "color": "rgba(0, 0, 0, 0.87)",
+                                                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                  "fontSize": "1.3125rem",
+                                                  "fontWeight": 500,
+                                                  "lineHeight": "1.16667em",
+                                                },
+                                                "useNextVariants": false,
+                                              },
+                                              "zIndex": Object {
+                                                "appBar": 1100,
+                                                "drawer": 1200,
+                                                "mobileStepper": 1000,
+                                                "modal": 1300,
+                                                "snackbar": 1400,
+                                                "tooltip": 1500,
+                                              },
+                                            }
+                                          }
+                                          title="Atualizar"
+                                        >
+                                          <RootRef
+                                            rootRef={[Function]}
+                                          >
+                                            <span
+                                              aria-describedby={null}
+                                              aria-haspopup="false"
+                                              aria-owns={null}
+                                              className="IconButton-spanIconButton-182"
+                                              key="iconButton"
+                                              onBlur={[Function]}
+                                              onFocus={[Function]}
+                                              onMouseLeave={[Function]}
+                                              onMouseOver={[Function]}
+                                              onTouchEnd={[Function]}
+                                              onTouchStart={[Function]}
+                                              title="Atualizar"
+                                            >
+                                              <WithStyles(IconButton)
+                                                className="IconButton-mini-183 bottom"
+                                                debounce={200}
+                                                disabled={false}
+                                                onClick={[Function]}
+                                                placement="bottom"
+                                                size="mini"
+                                                tooltip="Atualizar"
+                                                type="button"
+                                              >
+                                                <IconButton
+                                                  className="IconButton-mini-183 bottom"
+                                                  classes={
+                                                    Object {
+                                                      "colorInherit": "MuiIconButton-colorInherit-204",
+                                                      "colorPrimary": "MuiIconButton-colorPrimary-205",
+                                                      "colorSecondary": "MuiIconButton-colorSecondary-206",
+                                                      "disabled": "MuiIconButton-disabled-207",
+                                                      "label": "MuiIconButton-label-208",
+                                                      "root": "MuiIconButton-root-203",
+                                                    }
+                                                  }
+                                                  color="default"
+                                                  debounce={200}
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  placement="bottom"
+                                                  size="mini"
+                                                  tooltip="Atualizar"
+                                                  type="button"
+                                                >
+                                                  <WithStyles(ButtonBase)
+                                                    centerRipple={true}
+                                                    className="MuiIconButton-root-203 IconButton-mini-183 bottom"
+                                                    debounce={200}
+                                                    disabled={false}
+                                                    focusRipple={true}
+                                                    onClick={[Function]}
+                                                    placement="bottom"
+                                                    size="mini"
+                                                    tooltip="Atualizar"
+                                                    type="button"
+                                                  >
+                                                    <ButtonBase
+                                                      centerRipple={true}
+                                                      className="MuiIconButton-root-203 IconButton-mini-183 bottom"
+                                                      classes={
+                                                        Object {
+                                                          "disabled": "MuiButtonBase-disabled-210",
+                                                          "focusVisible": "MuiButtonBase-focusVisible-211",
+                                                          "root": "MuiButtonBase-root-209",
+                                                        }
+                                                      }
+                                                      component="button"
+                                                      debounce={200}
+                                                      disableRipple={false}
+                                                      disableTouchRipple={false}
+                                                      disabled={false}
+                                                      focusRipple={true}
+                                                      onClick={[Function]}
+                                                      placement="bottom"
+                                                      size="mini"
+                                                      tabIndex="0"
+                                                      tooltip="Atualizar"
+                                                      type="button"
+                                                    >
+                                                      <button
+                                                        className="MuiButtonBase-root-209 MuiIconButton-root-203 IconButton-mini-183 bottom"
+                                                        debounce={200}
+                                                        disabled={false}
+                                                        onBlur={[Function]}
+                                                        onClick={[Function]}
+                                                        onContextMenu={[Function]}
+                                                        onFocus={[Function]}
+                                                        onKeyDown={[Function]}
+                                                        onKeyUp={[Function]}
+                                                        onMouseDown={[Function]}
+                                                        onMouseLeave={[Function]}
+                                                        onMouseUp={[Function]}
+                                                        onTouchEnd={[Function]}
+                                                        onTouchMove={[Function]}
+                                                        onTouchStart={[Function]}
+                                                        placement="bottom"
+                                                        size="mini"
+                                                        tabIndex="0"
+                                                        tooltip="Atualizar"
+                                                        type="button"
+                                                      >
+                                                        <span
+                                                          className="MuiIconButton-label-208"
+                                                        >
+                                                          <Icon
+                                                            classes={
+                                                              Object {
+                                                                "root": "Indicator-headerIcon-3",
+                                                              }
+                                                            }
+                                                          >
+                                                            <WithStyles(SvgIcon)
+                                                              classes={
+                                                                Object {
+                                                                  "root": "Indicator-headerIcon-3",
+                                                                }
+                                                              }
+                                                            >
+                                                              <SvgIcon
+                                                                classes={
+                                                                  Object {
+                                                                    "colorAction": "MuiSvgIcon-colorAction-215",
+                                                                    "colorDisabled": "MuiSvgIcon-colorDisabled-217",
+                                                                    "colorError": "MuiSvgIcon-colorError-216",
+                                                                    "colorPrimary": "MuiSvgIcon-colorPrimary-213",
+                                                                    "colorSecondary": "MuiSvgIcon-colorSecondary-214",
+                                                                    "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-218",
+                                                                    "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-220",
+                                                                    "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-219",
+                                                                    "root": "MuiSvgIcon-root-212 Indicator-headerIcon-3",
+                                                                  }
+                                                                }
+                                                                color="inherit"
+                                                                component="svg"
+                                                                fontSize="default"
+                                                                viewBox="0 0 24 24"
+                                                              >
+                                                                <svg
+                                                                  aria-hidden="true"
+                                                                  className="MuiSvgIcon-root-212 Indicator-headerIcon-3"
+                                                                  focusable="false"
+                                                                  role="presentation"
+                                                                  viewBox="0 0 24 24"
+                                                                >
+                                                                  <path
+                                                                    d="M17.65,6.35C16.2,4.9 14.21,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20C15.73,20 18.84,17.45 19.73,14H17.65C16.83,16.33 14.61,18 12,18C8.69,18 6,15.31 6,12C6,8.69 8.69,6 12,6C13.66,6 15.14,6.69 16.22,7.78L13,11H20V4L17.65,6.35Z"
+                                                                  />
+                                                                </svg>
+                                                              </SvgIcon>
+                                                            </WithStyles(SvgIcon)>
+                                                          </Icon>
+                                                        </span>
+                                                        <NoSsr
+                                                          defer={false}
+                                                          fallback={null}
+                                                        >
+                                                          <WithStyles(TouchRipple)
+                                                            center={true}
+                                                            innerRef={[Function]}
+                                                          >
+                                                            <TouchRipple
+                                                              center={true}
+                                                              classes={
+                                                                Object {
+                                                                  "child": "MuiTouchRipple-child-228",
+                                                                  "childLeaving": "MuiTouchRipple-childLeaving-229",
+                                                                  "childPulsate": "MuiTouchRipple-childPulsate-230",
+                                                                  "ripple": "MuiTouchRipple-ripple-225",
+                                                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate-227",
+                                                                  "rippleVisible": "MuiTouchRipple-rippleVisible-226",
+                                                                  "root": "MuiTouchRipple-root-224",
+                                                                }
+                                                              }
+                                                            >
+                                                              <TransitionGroup
+                                                                childFactory={[Function]}
+                                                                className="MuiTouchRipple-root-224"
+                                                                component="span"
+                                                                enter={true}
+                                                                exit={true}
+                                                              >
+                                                                <span
+                                                                  className="MuiTouchRipple-root-224"
+                                                                />
+                                                              </TransitionGroup>
+                                                            </TouchRipple>
+                                                          </WithStyles(TouchRipple)>
+                                                        </NoSsr>
+                                                      </button>
+                                                    </ButtonBase>
+                                                  </WithStyles(ButtonBase)>
+                                                </IconButton>
+                                              </WithStyles(IconButton)>
+                                            </span>
+                                          </RootRef>
+                                          <Popper
+                                            anchorEl={
+                                              <span
+                                                aria-haspopup="false"
+                                                class="IconButton-spanIconButton-182"
+                                                title="Atualizar"
+                                              >
+                                                <button
+                                                  class="MuiButtonBase-root-209 MuiIconButton-root-203 IconButton-mini-183 bottom"
+                                                  debounce="200"
+                                                  placement="bottom"
+                                                  tabindex="0"
+                                                  tooltip="Atualizar"
+                                                  type="button"
+                                                >
+                                                  <span
+                                                    class="MuiIconButton-label-208"
+                                                  >
+                                                    <svg
+                                                      aria-hidden="true"
+                                                      class="MuiSvgIcon-root-212 Indicator-headerIcon-3"
+                                                      focusable="false"
+                                                      role="presentation"
+                                                      viewBox="0 0 24 24"
+                                                    >
+                                                      <path
+                                                        d="M17.65,6.35C16.2,4.9 14.21,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20C15.73,20 18.84,17.45 19.73,14H17.65C16.83,16.33 14.61,18 12,18C8.69,18 6,15.31 6,12C6,8.69 8.69,6 12,6C13.66,6 15.14,6.69 16.22,7.78L13,11H20V4L17.65,6.35Z"
+                                                      />
+                                                    </svg>
+                                                  </span>
+                                                  <span
+                                                    class="MuiTouchRipple-root-224"
+                                                  />
+                                                </button>
+                                              </span>
+                                            }
+                                            className="MuiTooltip-popper-195"
+                                            disablePortal={false}
+                                            id={null}
+                                            open={false}
+                                            placement="bottom"
+                                            transition={true}
+                                          />
+                                        </Tooltip>
+                                      </WithStyles(Tooltip)>
+                                    </div>
+                                  </IconButton>
+                                </WithStyles(IconButton)>
+                              </RefreshIconButton>
+                            </div>
+                            <WithStyles(CircularIndeterminate)
+                              className="Indicator-loader-6"
+                              marginTop={0}
+                              size={32}
+                            >
+                              <CircularIndeterminate
+                                className="Indicator-loader-6"
+                                classes={
+                                  Object {
+                                    "progress": "CircularIndeterminate-progress-231",
+                                  }
+                                }
+                                marginTop={0}
+                                size={32}
+                                style={Object {}}
+                              >
+                                <WithStyles(CircularProgress)
+                                  className="CircularIndeterminate-progress-231 Indicator-loader-6"
+                                  size={32}
+                                  style={
+                                    Object {
+                                      "marginTop": undefined,
+                                    }
+                                  }
+                                  variant="indeterminate"
+                                >
+                                  <CircularProgress
+                                    className="CircularIndeterminate-progress-231 Indicator-loader-6"
+                                    classes={
+                                      Object {
+                                        "circle": "MuiCircularProgress-circle-238",
+                                        "circleDisableShrink": "MuiCircularProgress-circleDisableShrink-241",
+                                        "circleIndeterminate": "MuiCircularProgress-circleIndeterminate-240",
+                                        "circleStatic": "MuiCircularProgress-circleStatic-239",
+                                        "colorPrimary": "MuiCircularProgress-colorPrimary-235",
+                                        "colorSecondary": "MuiCircularProgress-colorSecondary-236",
+                                        "indeterminate": "MuiCircularProgress-indeterminate-234",
+                                        "root": "MuiCircularProgress-root-232",
+                                        "static": "MuiCircularProgress-static-233",
+                                        "svg": "MuiCircularProgress-svg-237",
+                                      }
+                                    }
+                                    color="primary"
+                                    disableShrink={false}
+                                    size={32}
+                                    style={
+                                      Object {
+                                        "marginTop": undefined,
+                                      }
+                                    }
+                                    thickness={3.6}
+                                    value={0}
+                                    variant="indeterminate"
+                                  >
+                                    <div
+                                      className="MuiCircularProgress-root-232 MuiCircularProgress-colorPrimary-235 MuiCircularProgress-indeterminate-234 CircularIndeterminate-progress-231 Indicator-loader-6"
+                                      role="progressbar"
+                                      style={
+                                        Object {
+                                          "height": 32,
+                                          "marginTop": undefined,
+                                          "width": 32,
+                                        }
+                                      }
+                                    >
+                                      <svg
+                                        className="MuiCircularProgress-svg-237"
+                                        viewBox="22 22 44 44"
+                                      >
+                                        <circle
+                                          className="MuiCircularProgress-circle-238 MuiCircularProgress-circleIndeterminate-240"
+                                          cx={44}
+                                          cy={44}
+                                          fill="none"
+                                          r={20.2}
+                                          strokeWidth={3.6}
+                                          style={Object {}}
+                                        />
+                                      </svg>
+                                    </div>
+                                  </CircularProgress>
+                                </WithStyles(CircularProgress)>
+                              </CircularIndeterminate>
+                            </WithStyles(CircularIndeterminate)>
+                            <WithStyles(CardActions)
+                              className="Indicator-actions-11"
+                              disableActionSpacing={true}
+                            >
+                              <CardActions
+                                className="Indicator-actions-11"
+                                classes={
+                                  Object {
+                                    "action": "MuiCardActions-action-223",
+                                    "disableActionSpacing": "MuiCardActions-disableActionSpacing-222",
+                                    "root": "MuiCardActions-root-221",
+                                  }
+                                }
+                                disableActionSpacing={true}
+                              >
+                                <div
+                                  className="MuiCardActions-root-221 MuiCardActions-disableActionSpacing-222 Indicator-actions-11"
+                                />
+                              </CardActions>
+                            </WithStyles(CardActions)>
+                          </div>
+                        </Paper>
+                      </WithStyles(Paper)>
+                    </Card>
+                  </WithStyles(Card)>
+                </div>
+              </Grid>
+            </WithStyles(Grid)>
+          </div>
+        </Grid>
+      </WithStyles(Grid)>
+    </div>
+  </Indicator>
+</WithStyles(Indicator)>
+`;

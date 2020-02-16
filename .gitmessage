@@ -1,0 +1,35 @@
+# <type>: <subject> (Max 50 char)
+# |<----  Using a Maximum Of 50 Characters  ---->|
+# Example: <Feat>: New validation to max ´Inputs´ length 
+# --------------------
+# Explain why this change is being made
+# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+# Example: Did some improvements on `Inputs` to raise an warning -
+# when the input character limit as been reached.
+# --------------------
+# Explain how you did this change
+# Example: Add function `validateMaxChar()` to the input controls -
+# which verifies if the current input length isn't reached the max.
+# --------------------
+
+# --- COMMIT END ---
+# Type can be 
+#    feat     (new feature)
+#    fix      (bug fix)
+#    refactor (refactoring production code)
+#    style    (formatting, missing semi colons, etc; no code change)
+#    docs     (changes to documentation)
+#    test     (adding or refactoring tests; no production code change)
+# --------------------
+# Remember to
+#    Capitalize the subject line
+#    Use the imperative mood in the subject line
+#    Do not end the subject line with a period
+#    Separate subject from body with a blank line
+#    Can use multiple lines with "-" for bullet points in body
+# --------------------
+# Feedback, fix or improves to this document, send an email to
+# hyorran.preigschadt@syntesis.com.br
+#---------------------
+# Components documentation can be found here
+# http://s11.syntesis.com.br:43271/

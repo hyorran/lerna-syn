@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> rendered 1`] = `
+<WithStyles(Badge)
+  content={10}
+>
+  <Badge
+    classes={
+      Object {
+        "margin": "Badge-margin-1",
+      }
+    }
+    color="primary"
+    content={10}
+    invisible={false}
+  >
+    <WithStyles(Badge)
+      badgeContent={10}
+      className="Badge-margin-1"
+      color="primary"
+    >
+      <Badge
+        badgeContent={10}
+        className="Badge-margin-1"
+        classes={
+          Object {
+            "badge": "MuiBadge-badge-3",
+            "colorError": "MuiBadge-colorError-6",
+            "colorPrimary": "MuiBadge-colorPrimary-4",
+            "colorSecondary": "MuiBadge-colorSecondary-5",
+            "dot": "MuiBadge-dot-8",
+            "invisible": "MuiBadge-invisible-7",
+            "root": "MuiBadge-root-2",
+          }
+        }
+        color="primary"
+        component="span"
+        max={99}
+        showZero={false}
+        variant="standard"
+      >
+        <span
+          className="MuiBadge-root-2 Badge-margin-1"
+        >
+          <div
+            className="unique"
+          />
+          <span
+            className="MuiBadge-badge-3 MuiBadge-colorPrimary-4"
+          >
+            10
+          </span>
+        </span>
+      </Badge>
+    </WithStyles(Badge)>
+  </Badge>
+</WithStyles(Badge)>
+`;

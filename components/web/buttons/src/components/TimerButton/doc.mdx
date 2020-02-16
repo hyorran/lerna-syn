@@ -1,0 +1,31 @@
+---
+name: TimerButton
+menu: Buttons
+---
+
+import { Playground, PropsTable } from 'docz'
+import TimerButton, { ComponentWithProps } from './'
+
+# TimerButton
+
+A Simple TimerButton Example 
+
+## Basic Usage
+<Playground>
+  <div>
+    <TimerButton
+      onClick={ () => alert('auto clicked!') }
+      time={ 5 }
+      btnProps={ {
+        color: 'primary',
+        variant: 'contained'
+      } }
+      >
+      My Button!
+    </TimerButton>
+  </div>
+</Playground>
+
+## Props
+
+<PropsTable of={ ComponentWithProps } />

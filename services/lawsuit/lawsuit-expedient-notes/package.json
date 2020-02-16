@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@syntesis/s-lawsuit-expedient-notes",
+  "version": "0.0.5",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@syntesis/s-csharp-microservices": "^1.0.24"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

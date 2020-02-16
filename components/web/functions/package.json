@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@syntesis/c-functions",
+  "version": "0.0.15",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@brazilian-utils/format-cnpj": "^0.1.9",
+    "@syntesis/c-pickers": "^0.0.3"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

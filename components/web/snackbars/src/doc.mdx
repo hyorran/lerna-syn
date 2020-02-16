@@ -1,0 +1,220 @@
+---
+name: Snackbars
+---
+
+# Snackbars
+
+## Basic installation
+
+### withSnackbars({ ...options })
+
+An high order component to enable snackbar usages. Use this function to provide snackbars to yours apps. The options include the same that [notistack](https://iamhosseindhv.com/notistack) and other custom configs. By default `maxSnack` is 5.
+
+One time provided it, you will be able to create a snackbar from `window.snackbar` global object.
+
+### Example
+```jsx harmony
+import { withSnackbars } from '@syntesis/c-snackbars'
+
+const MyApp = props => (
+  <div>
+    ...
+  </div>
+)
+
+const snackbarProviderOptions = {
+  maxSnack: 5,
+  // or any other options from notistack
+}
+
+export default withSnackbars(snackbarProviderOptions)(MyApp)
+```
+
+### `window.snackbar` global object
+
+Every type usage receive the same parameters:
+`message` - the string message - and `options` - snackbar options object
+
+`window.snackbar.info(message, options)`
+
+```
+// window.snackbar
+{
+  default: (message, options) => new Snackbar(message, options),
+  info: (message, options) => new Snackbar(message, options),
+  success: (message, options) => new Snackbar(message, options),
+  warn: (message, options) => new Snackbar(message, options),
+  error: (message, options) => new Snackbar(message, options)
+}
+```
+
+## Snackbar
+An instance of Snackbar
+```
+// new Snackbar()
+{
+  open: () => {},
+  close: () => {},
+  message,
+  options,
+  key
+}
+```
+
+## Snackbar options
+The options include the same that [notistack](https://iamhosseindhv.com/notistack) and other custom configs.
+```
+{
+  variant: 'default'|'info'|'success'|'warn'|'error'
+  closeOnClick: true|false,
+  autoHideDuration: 7000, // time in ms
+  persist: true|false, // if true disable autoHideDuration
+  copyButton: true|false,
+  closeButton: true|false,
+  closeOnClick: true|false,
+  onClick: () => {},
+  anchorOrigin: {
+    vertical: 'top'|'bottom', // vertical position
+    horizontal: 'right'|'left' // horizontal position
+  }
+}
+```
+
+## Default snackbar options by type
+
+#### default
+```
+{
+  variant: 'default',
+  closeOnClick: true,
+  autoHideDuration: 3000,
+  anchorOrigin: {
+    vertical: 'bottom',
+    horizontal: 'right'
+  }
+}
+```
+
+#### info
+```
+{
+  variant: 'info',
+  closeOnClick: true,
+  autoHideDuration: 3000,
+  anchorOrigin: {
+    vertical: 'bottom',
+    horizontal: 'right'
+  }
+}
+```
+
+#### success
+```
+{
+  variant: 'success',
+  closeOnClick: true,
+  autoHideDuration: 3000,
+  anchorOrigin: {
+    vertical: 'bottom',
+    horizontal: 'right'
+  }
+}
+```
+
+#### warn
+```
+{
+  variant: 'warning',
+  closeOnClick: true,
+  autoHideDuration: 7000,
+  anchorOrigin: {
+    vertical: 'bottom',
+    horizontal: 'right'
+  },
+  action: (
+    <SnackbarActionsContainer>
+      <CopyToClipboard text={ message }>
+        <CopyIconButton
+          size="mini"
+          color="inherit"
+          onClick={ () => window.snackbar.success('Mensagem copiada com sucesso!') }
+        />
+      <CloseIconButton
+        color="inherit"
+        size="mini"
+      />
+    </SnackbarActionsContainer>
+  )
+}
+```
+
+#### error
+```
+{
+  variant: 'error',
+  persist: true,
+  closeOnClick: false,
+  anchorOrigin: {
+    vertical: 'bottom',
+    horizontal: 'right'
+  },
+  action: (
+    <SnackbarActionsContainer>
+      <CopyToClipboard text={ message }>
+        <CopyIconButton
+          size="mini"
+          color="inherit"
+          onClick={ () => window.snackbar.success('Mensagem copiada com sucesso!') }
+        />
+      </CopyToClipboard>
+      <CloseIconButton
+        color="inherit"
+        size="mini"
+      />
+    </SnackbarActionsContainer>
+  )
+}
+```
+
+## Basic Usage and Examples
+Click on buttons to view the snackbars:
+
+import { Playground } from 'docz'
+import Button from '@syntesis/c-buttons/src/components/Button'
+import withSnackbars from './actions/withSnackbars'
+
+<Playground>
+  {
+    () => {
+      const App = props => (
+        <div>
+          <Button onClick={ () => window.snackbar.default('My snack default!') } >
+            default
+          </Button>
+          <Button onClick={ () => window.snackbar.info('My snack info!') } >
+            info
+          </Button>
+          <Button onClick={ () => window.snackbar.success('My snack success!') } >
+            success
+          </Button>
+          <Button onClick={ () => window.snackbar.warn('My snack warn!') } >
+            warn
+          </Button>
+          <Button onClick={ () => window.snackbar.error('My snack error!') } >
+            error
+          </Button>
+        </div>
+      )
+
+      const snackbarOptions = {
+        maxSnack: 5,
+        // or any other options from notistack
+      }
+
+      const MyApp = withSnackbars(snackbarOptions)(App)
+
+      return <MyApp />
+    }
+  }
+</Playground>
+

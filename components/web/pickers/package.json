@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@syntesis/c-pickers",
+  "version": "0.0.3",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "flatpickr": "^4.5.2",
+    "react-flatpickr": "^3.6.4"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "@syntesis/c-buttons",
+  "version": "0.0.16",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@syntesis/c-dialog-portal": "^0.0.0"
+  },
+  "dependencies": {
+    "@syntesis/c-icons": "^0.0.13",
+    "@syntesis/c-popovers": "^0.0.4",
+    "react-outside-click-handler": "^1.2.2"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

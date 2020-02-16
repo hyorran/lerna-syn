@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "@syntesis/d-co-billing",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@syntesis/c-commons": "^0.0.26",
+    "@syntesis/c-dashboard": "^0.0.10",
+    "@syntesis/c-indicator": "^0.0.7",
+    "@syntesis/f-co-billing": "^0.0.1",
+    "@syntesis/s-wiki": "^1.0.24",
+    "react-resize-detector": "^3.2.0"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

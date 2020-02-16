@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@syntesis/c-repeater",
+  "version": "0.0.2",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@syntesis/c-buttons": "^0.0.16",
+    "@syntesis/c-icons": "^0.0.13"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

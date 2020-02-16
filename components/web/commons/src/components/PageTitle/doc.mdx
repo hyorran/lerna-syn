@@ -1,0 +1,30 @@
+---
+name: PageTitle
+menu: Commons
+---
+
+import { Playground, PropsTable } from 'docz'
+import AddIcon from '@syntesis/c-icons/src/AddIcon'
+import PageTitle, { ComponentWithProps } from './'
+
+# PageTitle
+
+A Simple PageTitle Example 
+
+## Basic Usage
+<Playground>
+  <div>
+    <PageTitle
+      icon={ AddIcon }
+      title="Titulo da página"
+      subtitle="Subtitulo da página"
+      wikiPageId={ 211 }
+      summaryButton
+      customDocsButton={ { url: 'https://syntesis.com.br' } }
+    />
+  </div>
+</Playground>
+
+## Props
+
+<PropsTable of={ ComponentWithProps } />

@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@syntesis/c-panels",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

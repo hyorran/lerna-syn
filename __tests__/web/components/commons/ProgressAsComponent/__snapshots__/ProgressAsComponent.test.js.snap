@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressAsComponent /> rendered 1`] = `
+<WithStyles(ProgressAsComponent)
+  value={50}
+>
+  <ProgressAsComponent
+    classes={Object {}}
+    value={50}
+  >
+    <t
+      percent={50}
+      status="orange"
+      theme={
+        Object {
+          "green": Object {
+            "color": "#4caf50",
+          },
+          "orange": Object {
+            "color": "#ffa000",
+          },
+          "red": Object {
+            "color": "#d32f2f",
+          },
+        }
+      }
+    >
+      <div
+        className="react-sweet-progress"
+      >
+        <s
+          background="#ffa000"
+          percent={50}
+          prefixClass="react-sweet-progress"
+          status="orange"
+        >
+          <div
+            className="react-sweet-progress-line"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
+          >
+            <div
+              className="react-sweet-progress-line-inner undefined"
+              style={
+                Object {
+                  "backgroundColor": "#ffa000",
+                  "width": "50%",
+                }
+              }
+            />
+          </div>
+        </s>
+        <div
+          className="react-sweet-progress-symbol"
+        >
+          50%
+        </div>
+      </div>
+    </t>
+  </ProgressAsComponent>
+</WithStyles(ProgressAsComponent)>
+`;

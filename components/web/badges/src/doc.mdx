@@ -1,0 +1,47 @@
+---
+name: Badge
+---
+
+import { Playground, PropsTable } from 'docz'
+import Button from '@syntesis/c-buttons/src/components/Button'
+import AddIconButton from '@syntesis/c-buttons/src/components/IconButton/AddIconButton'
+import Typography from '@material-ui/core/Typography'
+import Badge, { ComponentWithProps } from './'
+
+# Badge
+
+
+## Basic Usage
+
+<Playground>
+  {
+    () => {
+      const badgeContent = 12
+      return (
+        <div>
+      		<Badge content={ badgeContent }>
+      		  <Button>My Button</Button>
+      		</Badge>
+      		
+      		<br />
+      		<br />
+      		
+      		<Badge content={ badgeContent } color="secondary">
+            <Typography variant="title">My Text</Typography>
+          </Badge>
+          
+          <br />
+          <br />
+          
+      		<Badge content={ badgeContent } color="error">
+            <AddIconButton />
+          </Badge>
+      	</div>
+      )
+    }  
+  }
+</Playground>
+
+## Props
+
+<PropsTable of={ ComponentWithProps }/>

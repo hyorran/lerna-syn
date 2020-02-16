@@ -1,0 +1,10 @@
+{
+  "name": "appclient",
+  "displayName": "appclient",
+  "packagerOpts": {
+    "projectRoots": [
+      "",
+      "../../../"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@syntesis/c-icons",
+  "version": "0.0.13",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@material-ui/icons": "^3.0.1",
+    "mdi-material-ui": "^5.5.0"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

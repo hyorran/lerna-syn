@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "@syntesis/c-styles",
+  "version": "0.0.11",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@ctrl/tinycolor": "^2.4.0",
+    "jss": "^9.8.7",
+    "jss-preset-default": "^4.5.0",
+    "react-jss": "^8.6.1",
+    "tinygradient": "^1.0.0"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

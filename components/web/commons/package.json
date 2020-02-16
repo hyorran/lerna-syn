@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "@syntesis/c-commons",
+  "version": "0.0.26",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@syntesis/c-buttons": "^0.0.16",
+    "@syntesis/c-icons": "^0.0.13",
+    "@syntesis/c-modals": "^0.0.37",
+    "@syntesis/c-scroll": "^0.0.4",
+    "@syntesis/s-wiki": "^1.0.24",
+    "html-to-react": "^1.3.4",
+    "react-sweet-progress": "^1.1.2"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

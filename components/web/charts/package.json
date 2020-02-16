@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "@syntesis/c-charts",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@devexpress/dx-react-core": "^1.11.0",
+    "@devexpress/dx-react-chart": "^1.11.0",
+    "@devexpress/dx-react-chart-material-ui": "^1.11.0"
+  },
+  "scripts": {
+    "build:babel": "babel src -d lib "
+  }
+}

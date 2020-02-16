@@ -1,0 +1,48 @@
+---
+name: Dashboard
+menu: Dashboard
+---
+
+import { Playground, PropsTable } from 'docz'
+import Dashboard, { ComponentWithProps } from './'
+
+# Dashboard
+
+A Simple Dashboard Example 
+
+## Basic Usage
+<Playground>
+  {
+    () => {
+      const items = [
+        {
+          title: 'Page 1',
+          container: () => <h2>My page 1</h2>,
+          urlPath: '/'
+        },
+        {
+          title: 'Page 2',
+          container: () => <h2>My page 2</h2>,
+          urlPath: '/page-2'
+        }
+      ]
+      
+      const feature = {
+        title: 'My Dash!',
+        subtitle: 'Dashboard',
+        wikiPageId: 211
+      }
+      
+      return (
+        <Dashboard
+          feature={ feature }
+          items={ items }
+        />
+      )
+    }
+  }
+</Playground>
+
+## Props
+
+<PropsTable of={ ComponentWithProps } />

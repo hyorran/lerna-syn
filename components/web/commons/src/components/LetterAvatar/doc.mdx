@@ -1,0 +1,28 @@
+---
+name: LetterAvatar
+menu: Commons
+---
+
+import { Playground, PropsTable } from 'docz'
+import userAvatarByName from '@syntesis/c-functions/src/userAvatarByName'
+import LetterAvatar, { ComponentWithProps } from './'
+
+# LetterAvatar
+
+A Simple LetterAvatar Example.
+
+Use together `@syntesis/c-functions/src/userAvatarByName`
+
+## Basic Usage
+<Playground>
+  {
+    () => {
+      const letter = userAvatarByName("User Test")
+      return <LetterAvatar letter={ letter } />
+    }  
+  }
+</Playground>
+
+## Props
+
+<PropsTable of={ ComponentWithProps } />

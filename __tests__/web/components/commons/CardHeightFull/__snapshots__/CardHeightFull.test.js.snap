@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardHeightFull /> rendered 1`] = `
+<WithStyles(HeightFull)>
+  <HeightFull
+    cardContainerClass={null}
+    classes={
+      Object {
+        "container": "HeightFull-container-1",
+      }
+    }
+    component={[Function]}
+    setHeight={false}
+  >
+    <ResizeDetector
+      handleHeight={true}
+      handleWidth={true}
+      nodeType="div"
+      onResize={[Function]}
+      refreshRate={1000}
+      render={[Function]}
+      resizableElementId=""
+      skipOnMount={false}
+    >
+      <div
+        key="resize-detector"
+        style={
+          Object {
+            "display": "none",
+            "height": 0,
+            "position": "absolute",
+            "visibility": "hidden",
+            "width": 0,
+          }
+        }
+      />
+      <WithStyles(Card)
+        className="HeightFull-container-1 "
+        key="render"
+        style={
+          Object {
+            "maxHeight": 746,
+          }
+        }
+      >
+        <Card
+          className="HeightFull-container-1 "
+          classes={
+            Object {
+              "root": "MuiCard-root-2",
+            }
+          }
+          raised={false}
+          style={
+            Object {
+              "maxHeight": 746,
+            }
+          }
+        >
+          <WithStyles(Paper)
+            className="MuiCard-root-2 HeightFull-container-1 "
+            elevation={1}
+            style={
+              Object {
+                "maxHeight": 746,
+              }
+            }
+          >
+            <Paper
+              className="MuiCard-root-2 HeightFull-container-1 "
+              classes={
+                Object {
+                  "elevation0": "MuiPaper-elevation0-5",
+                  "elevation1": "MuiPaper-elevation1-6",
+                  "elevation10": "MuiPaper-elevation10-15",
+                  "elevation11": "MuiPaper-elevation11-16",
+                  "elevation12": "MuiPaper-elevation12-17",
+                  "elevation13": "MuiPaper-elevation13-18",
+                  "elevation14": "MuiPaper-elevation14-19",
+                  "elevation15": "MuiPaper-elevation15-20",
+                  "elevation16": "MuiPaper-elevation16-21",
+                  "elevation17": "MuiPaper-elevation17-22",
+                  "elevation18": "MuiPaper-elevation18-23",
+                  "elevation19": "MuiPaper-elevation19-24",
+                  "elevation2": "MuiPaper-elevation2-7",
+                  "elevation20": "MuiPaper-elevation20-25",
+                  "elevation21": "MuiPaper-elevation21-26",
+                  "elevation22": "MuiPaper-elevation22-27",
+                  "elevation23": "MuiPaper-elevation23-28",
+                  "elevation24": "MuiPaper-elevation24-29",
+                  "elevation3": "MuiPaper-elevation3-8",
+                  "elevation4": "MuiPaper-elevation4-9",
+                  "elevation5": "MuiPaper-elevation5-10",
+                  "elevation6": "MuiPaper-elevation6-11",
+                  "elevation7": "MuiPaper-elevation7-12",
+                  "elevation8": "MuiPaper-elevation8-13",
+                  "elevation9": "MuiPaper-elevation9-14",
+                  "root": "MuiPaper-root-3",
+                  "rounded": "MuiPaper-rounded-4",
+                }
+              }
+              component="div"
+              elevation={1}
+              square={false}
+              style={
+                Object {
+                  "maxHeight": 746,
+                }
+              }
+            >
+              <div
+                className="MuiPaper-root-3 MuiPaper-elevation1-6 MuiPaper-rounded-4 MuiCard-root-2 HeightFull-container-1 "
+                style={
+                  Object {
+                    "maxHeight": 746,
+                  }
+                }
+              >
+                <Scroll
+                  autoHeightMax={731}
+                >
+                  <Scrollbars
+                    autoHeight={true}
+                    autoHeightMax={731}
+                    autoHeightMin={0}
+                    autoHide={true}
+                    autoHideDuration={200}
+                    autoHideTimeout={1000}
+                    hideTracksWhenNotNeeded={false}
+                    renderThumbHorizontal={[Function]}
+                    renderThumbVertical={[Function]}
+                    renderTrackHorizontal={[Function]}
+                    renderTrackVertical={[Function]}
+                    renderView={[Function]}
+                    tagName="div"
+                    thumbMinSize={30}
+                    universal={false}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "height": "auto",
+                          "maxHeight": 731,
+                          "minHeight": 0,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <div
+                        key="view"
+                        style={
+                          Object {
+                            "WebkitOverflowScrolling": "touch",
+                            "bottom": undefined,
+                            "left": undefined,
+                            "marginBottom": 0,
+                            "marginRight": 0,
+                            "maxHeight": 731,
+                            "minHeight": 0,
+                            "overflow": "scroll",
+                            "position": "relative",
+                            "right": undefined,
+                            "top": undefined,
+                          }
+                        }
+                      />
+                      <div
+                        key="trackHorizontal"
+                        style={
+                          Object {
+                            "borderRadius": 3,
+                            "bottom": 2,
+                            "display": "none",
+                            "height": 6,
+                            "left": 2,
+                            "opacity": 0,
+                            "position": "absolute",
+                            "right": 2,
+                            "transition": "opacity 200ms",
+                          }
+                        }
+                      >
+                        <div
+                          style={
+                            Object {
+                              "backgroundColor": "rgba(0,0,0,.2)",
+                              "borderRadius": "inherit",
+                              "cursor": "pointer",
+                              "display": "block",
+                              "height": "100%",
+                              "position": "relative",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        key="trackVertical"
+                        style={
+                          Object {
+                            "borderRadius": 3,
+                            "bottom": 2,
+                            "display": "none",
+                            "opacity": 0,
+                            "position": "absolute",
+                            "right": 2,
+                            "top": 2,
+                            "transition": "opacity 200ms",
+                            "width": 6,
+                          }
+                        }
+                      >
+                        <div
+                          style={
+                            Object {
+                              "backgroundColor": "rgba(0,0,0,.2)",
+                              "borderRadius": "inherit",
+                              "cursor": "pointer",
+                              "display": "block",
+                              "position": "relative",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </Scrollbars>
+                </Scroll>
+              </div>
+            </Paper>
+          </WithStyles(Paper)>
+        </Card>
+      </WithStyles(Card)>
+    </ResizeDetector>
+  </HeightFull>
+</WithStyles(HeightFull)>
+`;

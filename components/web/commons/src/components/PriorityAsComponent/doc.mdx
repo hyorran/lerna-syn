@@ -1,0 +1,25 @@
+---
+name: PriorityAsComponent
+menu: Commons
+---
+
+import { Playground, PropsTable } from 'docz'
+import PriorityAsComponent, { ComponentWithProps } from './'
+
+# PriorityAsComponent
+
+A Simple PriorityAsComponent Example 
+
+## Basic Usage
+<Playground>
+  <div>
+    <PriorityAsComponent />
+    <PriorityAsComponent value={ 1 } />
+    <PriorityAsComponent value={ 2 }/>
+    <PriorityAsComponent value={ 3 }/>
+  </div>
+</Playground>
+
+## Props
+
+<PropsTable of={ ComponentWithProps } />
